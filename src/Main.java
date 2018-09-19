@@ -4,6 +4,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
+		//implementation
 		Pays pays = new Pays("toto", "Français", "Euro", "TuuLand", 500, 50);
 		
 		//System.out.println(pays.getSaCapitale().getNom());
