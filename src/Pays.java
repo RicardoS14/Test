@@ -144,4 +144,4 @@ public class Pays {
 		return chaine;
 	}
 
-}
+} //Romain Chevrier vous dis coucou!
