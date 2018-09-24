@@ -16,6 +16,7 @@ public class Main {
 		System.out.println(pays.rechercherUneVille("Ltezrgrger"));
 		pays.supprimerUneVille(1);
 		System.out.println(pays.rechercherUneVille("TAAAAAAH")); 
+		//ajouter une ville
 		pays.ajouterUneVille(new Ville("Cerny", 454, 15));
 		System.out.println(pays.toString());
 	}
