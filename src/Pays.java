@@ -106,7 +106,6 @@ public class Pays {
 	public void supprimerUneVille(int index) {
 		int i = index;
 		while(i < nbVilles) {
-		while(i < nbVilles) {;
 			if(i + 1 < nbVilles) this.lesVilles[i] = lesVilles[i+1];
 			else this.lesVilles[i] = null;
 			i++;
@@ -138,7 +137,8 @@ public class Pays {
 				"\nLangue : " + this.langue +
 				"\nMonnaie : " + this.monnaie +
 				"\n\n" + this.saCapitale.toString() +
-				"\n\n*** Les Villes ***\n" ;
+				"\n\n*** Les Villes ***\n"
+				+ "\n Moi";
 		for(int i = 0; i < nbVilles; i++) {
 			chaine += "\n" + lesVilles[i].toString();
 		}
