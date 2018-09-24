@@ -105,7 +105,7 @@ public class Pays {
 	
 	public void supprimerUneVille(int index) {
 		int i = index;
-		while(i < nbVilles) {
+		while(i < nbVilles) {;
 			if(i + 1 < nbVilles) this.lesVilles[i] = lesVilles[i+1];
 			else this.lesVilles[i] = null;
 			i++;
